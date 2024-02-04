@@ -1,7 +1,6 @@
 (function() {
     'use strict';
 
-    setInterval(function() {
-        location.reload();
-    }, 1000);
+    // Affiche une alerte lorsque la page est chargée
+    alert("Le userscript a été exécuté avec succès !");
 })();
